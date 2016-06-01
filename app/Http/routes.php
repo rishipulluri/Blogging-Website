@@ -25,3 +25,15 @@ Route::get('/blog/{post_id}', [
     'uses' => 'PostController@getSinglePost',
     'as' => 'blog.single'
     ]);
+
+/* Other routes to the header pages */
+
+Route::get('/about', function(){
+    
+    return view('frontend.other.about');
+})-> name('about');
+
+Route::get('/contact', [
+    'uses' => 'ContactMessageController@getContactIndex',
+    'as' => 'contact'
+    ]);

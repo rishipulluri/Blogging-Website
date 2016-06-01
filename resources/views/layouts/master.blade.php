@@ -3,8 +3,7 @@
     <head>
         <meta charset = "UTF-8">
         <title> @yield('title') </title>
-        <link rel="stylesheet" href="{{ URL::secure('css/main.css') }}" type="text/css" />
-        <link rel="stylesheet" href="/public/main.css" type="text/css" />
+        <link rel="stylesheet" href="{{ URL::secure('src/css/main.css') }}" type="text/css" />
 
         @yield('styles')
     </head>

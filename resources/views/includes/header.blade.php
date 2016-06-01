@@ -1,7 +1,9 @@
 <header>
-    <nav>
-        <li><a href = "#">Blog </a></li>        
-        <li><a href = "#">About me</a></li>
-        <li><a href = "#">Contact </a></li>
+    <nav class = "main-nav">
+        <ul>
+            <li><a href = "{{route('blog.index')}}">Blog </a></li>        
+            <li><a href = "{{route('about')}}">About me</a></li>
+            <li><a href = "{{route('contact')}}">Contact </a></li>
+        </ul>
     </nav>
 </header>

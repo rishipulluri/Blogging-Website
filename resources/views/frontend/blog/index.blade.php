@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 @section('title')
@@ -5,12 +6,14 @@
 @endsection
 
 @section('content')
-    <article>
+    <section>
+    <article class = "blog-post">
         <h3>Post Title</h3>
         <span class = "subtitle">Post Author | Date</span>
         <p>Post Body</p>
         <a href = "#">Read More</a>
     </article>
+    </section>
     <section class = "pagination">
         Pagination
     </section>
